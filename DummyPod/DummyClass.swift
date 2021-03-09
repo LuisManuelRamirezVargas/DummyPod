@@ -10,6 +10,10 @@ enum DummyClassError: Error {
 }
 
 open class DummyClass {
+
+    public init() {
+    }
+
     public func getAvailableDiskSpace() -> Result<Int, Error> {
         let fileURL = URL(fileURLWithPath: NSHomeDirectory() as String)
         do {
