@@ -10,6 +10,7 @@
 		329AA95F25F81C8600710941 /* DummyPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329AA95525F81C8500710941 /* DummyPod.framework */; };
 		329AA96425F81C8600710941 /* DummyPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AA96325F81C8600710941 /* DummyPodTests.swift */; };
 		329AA96625F81C8600710941 /* DummyPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 329AA95825F81C8500710941 /* DummyPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A9A1AB39BB9E7DA77A27EF1 /* DummyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A1DBF5CF946AE5A5C1724 /* DummyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		329AA95E25F81C8600710941 /* DummyPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DummyPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		329AA96325F81C8600710941 /* DummyPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyPodTests.swift; sourceTree = "<group>"; };
 		329AA96525F81C8600710941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A9A1DBF5CF946AE5A5C1724 /* DummyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				329AA95825F81C8500710941 /* DummyPod.h */,
 				329AA95925F81C8500710941 /* Info.plist */,
+				8A9A1DBF5CF946AE5A5C1724 /* DummyClass.swift */,
 			);
 			path = DummyPod;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A9A1AB39BB9E7DA77A27EF1 /* DummyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +353,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DummyPod/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,6 +378,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DummyPod/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
