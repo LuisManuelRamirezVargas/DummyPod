@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
   
   s.author = { "Luis Manuel Ramirez Vargas" => "luis.manuel.ramirez.91@gmail.com" }
   
-  s.homepage = "https://github.com/LuisMDeveloper/DummyPod"
+  s.homepage = "https://github.com/LuisManuelRamirezVargas/DummyPod"
   
-  s.source = { :git => "https://github.com/LuisMDeveloper/DummyPod.git", 
+  s.source = { :git => "https://github.com/LuisManuelRamirezVargas/DummyPod.git", 
                :tag => "#{s.version}" }
 
   s.source_files = "DummyPod/**/*.{swift}"
