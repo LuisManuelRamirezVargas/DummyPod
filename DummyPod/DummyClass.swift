@@ -9,7 +9,7 @@ enum DummyClassError: Error {
     case CapacityIsUnavailable
 }
 
-class DummyClass {
+open class DummyClass {
     public func getAvailableDiskSpace() -> Result<Int, Error> {
         let fileURL = URL(fileURLWithPath: NSHomeDirectory() as String)
         do {
