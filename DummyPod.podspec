@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary = "DummyPod is a test pod"
   s.requires_arc = true
   
-  s.version = "0.2.0"
+  s.version = "0.3.0"
   
   s.license = { :type => "MIT", :file => "LICENSE" }
   
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
                :tag => "#{s.version}" }
 
   s.source_files = "DummyPod/**/*.{swift}"
-  s.resources = "DummyPod/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+
   s.swift_version = "4.2"
   
 end
